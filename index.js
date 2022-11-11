@@ -11,14 +11,6 @@ const server = app.listen(PORT, () => {
 });
 
 const contenedor = new Contenedor('./productos.txt')
-// let productos = [];
-// async function main(){
-//     const contenedor = new Contenedor('./productos.txt')
-//     productos = await contenedor.getAll();
-//     // console.log(`Productos: ${JSON.stringify(productos)}`);
-// }
-
-// main();
 
 //Rutas
 app.get('/', (req, res) => {
